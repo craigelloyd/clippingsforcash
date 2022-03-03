@@ -8,7 +8,7 @@ I made this simple web page as a joke for the guide creation team at iFixit, who
 2. In the "Times per Week" box, enter in the average number of times per week that you clip your fingernails.
 3. Click "Calculate".
 
-Based on an average of two minutes per clipping session, your yearly Clippings Cash will display at the bottom of the window.
+Based on an average of three minutes per clipping session, your yearly Clippings Cash will display at the bottom of the window.
 
 Check out the live version [here](https://clloyd.co/clippingsforcash/).
 
