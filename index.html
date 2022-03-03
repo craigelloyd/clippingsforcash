@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+
+<title>Clippings for Cash</title>
+
+<script language="JavaScript">
+
+function add(form) {
+	var annualPay = 0;
+	var Pay = form.Pay.value;
+	var Days = form.Days.value;
+
+	if (Days != "" && Pay != "") { 
+		annualPay = (Pay / 60 * 3 * Days * 52);
+	} 
+
+	document.getElementById("myDiv").innerHTML = "Yearly Clippings Cash: $"+(Math.round(annualPay * 100) / 100).toFixed(2);
+}
+
+</script>
+
+<style type="text/css">
+
+#container {
+	max-width: 370px;
+	margin: 0 auto;
+}
+
+#calc {
+	background: lightgray;
+	padding: 20px 0 10px 0;
+	max-width: 350px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+
+#myDiv {
+	max-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+body {
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+h1 {
+	margin: 40px 0 -8px 0;
+}
+
+h3 {
+	font-size: 12pt;
+}
+
+p {
+	font-size: 10pt;
+	margin-top: -15px;
+}
+
+.button {
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 30px;
+	font-size: 10pt;
+	font-family: "Lucida Console", Monaco, monospace;
+	margin-bottom: 20px;
+}
+
+input[type=text] {
+	padding: 10px 10px;
+	margin-top: -5px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 10pt;
+	text-align: center;
+}
+
+.class {
+	border-radius: 10px;
+}
+
+</style>
+
+</head>
+
+<div id="container">
+
+<header>
+
+<h1>Clippings for Cash</h1>
+
+<h3>How much do you get paid to clip your fingernails at work?</h3>
+
+</header>
+
+<body>
+
+<div id="calc">
+
+<form method="post">
+
+<h2><strong>Hourly Pay</strong></h2>
+<p>($10 = "10")</p>
+<input type="Text" name="Pay" value="" maxlength="5" size="5"><br>
+
+<h2><strong>Times per Week</strong></h2>
+<input type="Text" name="Days" value="" maxlength="5" size="5"><br><br><br>
+
+<input type="Button" class="button" name="getPay" value="Calculate" onClick="add(this.form)">
+
+</form>
+
+<div id="myDiv">
+<a name="myPay">&nbsp;</a>
+</div>
+
+</div>
+
+<br><br><br><br><br>
+
+</body>
+</div>
+</html>
