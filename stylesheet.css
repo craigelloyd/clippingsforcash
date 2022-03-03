@@ -1,0 +1,67 @@
+#container {
+	max-width: 370px;
+	margin: 0 auto;
+}
+
+#calc {
+	background: lightgray;
+	padding: 20px 0 10px 0;
+	max-width: 350px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+
+#myDiv {
+	max-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+body {
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+h1 {
+	margin: 40px 0 -8px 0;
+}
+
+h3 {
+	font-size: 12pt;
+}
+
+p {
+	font-size: 10pt;
+	margin-top: -15px;
+}
+
+.button {
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 30px;
+	font-size: 10pt;
+	font-family: "Lucida Console", Monaco, monospace;
+	margin-bottom: 20px;
+}
+
+input[type=text] {
+	padding: 10px 10px;
+	margin-top: -5px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 10pt;
+	text-align: center;
+}
+
+.class {
+	border-radius: 10px;
+}
