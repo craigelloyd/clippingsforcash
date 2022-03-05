@@ -4,8 +4,8 @@ I made this simple web page as a joke for the guide creation team at iFixit, who
 
 ## How It Works
 
-1. Type in your hourly pay rate in the "Hourly Pay" box. Only include the number and not the dollar sign.
-2. In the "Times per Week" box, enter in the average number of times that you clip your fingernails in a given week.
+1. Type in your hourly pay rate in the "Hourly Pay" box. Do not include the dollar sign.
+2. In the "Times per Week" box, enter in the average number of times you clip your fingernails in a given week.
 3. Click "Calculate".
 
 Based on an average of three minutes per clipping session, your yearly Clippings Cash will display at the bottom of the window.
